@@ -1,5 +1,6 @@
 import { Theme } from '@material-ui/core';
 
+// eslint-disable-next-line
 const indexPageStyles = (theme: Theme) => ({
   root: {
     flexGrow: 1

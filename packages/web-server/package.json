@@ -1,5 +1,5 @@
 {
-  "name": "@jcalderon/web-server",
+  "name": "@jcalderonzumba/web-server",
   "version": "1.0.0",
   "description": "Express web server for the project",
   "main": "dist/index",

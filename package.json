@@ -8,6 +8,7 @@
     "lint": "lerna run lint",
     "clean": "lerna run clean",
     "build": "lerna run build",
+    "start": "yarn build && yarn workspace @jcalderonzumba/web-server start",
     "prettier": "prettier '**/*.{ts,tsx,js,json,md}' --write",
     "lint-staged": "lerna run lint-staged"
   },
