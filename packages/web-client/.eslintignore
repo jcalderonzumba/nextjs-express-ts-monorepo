@@ -1,0 +1,8 @@
+dist
+build
+.eslintrc.js
+webpack.config.js
+.aws-sam
+design
+next.config.js
+next-env.d.ts

@@ -1,0 +1,28 @@
+{
+  "name": "@jcalderonzumba/web-server-logger",
+  "version": "1.0.0",
+  "description": "Logger for a web server using express",
+  "main": "dist/index",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "compile": "tsc -p tsconfig.build.json",
+    "clean": "rimraf dist",
+    "lint": "tsc --noEmit -p tsconfig.build.json && eslint '**/*.{js,ts,tsx}'",
+    "lint-staged": "lint-staged"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.14"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "@types/bunyan": "^1.8.6"
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "*.{ts,tsx}": "eslint '**/*.{js,ts,tsx}'"
+  }
+}
