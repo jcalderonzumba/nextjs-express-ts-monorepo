@@ -16,3 +16,20 @@ This is the custom server that serves both nextjs pages and, also APIs that your
 
 A web logger for the server, shown as an example of how you can have different packages working together
 thanks to yarn/lerna monorepo setup
+
+## Running the example
+
+Just run from the root of the folder:
+
+```
+yarn install && yarn start
+```
+
+## Requirements
+
+This example has been tested with:
+
+- nodejs v12.16.1
+- express v4.17.1
+- next v9.5.1
+- react v16.13.1
